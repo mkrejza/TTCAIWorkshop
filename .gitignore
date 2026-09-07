@@ -1,0 +1,18 @@
+node_modules/
+*.log
+.DS_Store
+
+# Vydání staví artefakt na běhu, do repozitáře nepatří
+prehravac-app-v*.zip
+
+# Brána dvojího důkazu si odkládá originál, než ho vrátí
+*.orig
+
+# Přístupové údaje se necommitují
+infra/mcp/redmine.env
+GATES_OFF
+
+# Materiály pro lektora. Odpověď, ze které má na školení vzniknout chyba,
+# nesmí být ve veřejném repozitáři — ani v orákulu, ani ve scénáři.
+LEKTOR.md
+lektor-reseni/

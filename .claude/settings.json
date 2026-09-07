@@ -1,0 +1,50 @@
+{
+  "$comment": [
+    "Hooks are ENFORCEMENT, not advice. CLAUDE.md is a reminder; a rule gets broken at",
+    "exactly the moment it would apply, because that is when it is most in the way.",
+    "Everything here is versioned and owned by the guarantor (see CODEOWNERS)."
+  ],
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/hooks/format-changed.sh",
+            "$comment": "Format ONLY the touched files. Otherwise the diff fills with formatting and review drowns the real change."
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/hooks/deny-dangerous.sh",
+            "$comment": "Blocks: force push, git checkout -- over uncommitted work (it deletes work and git status then shows the file CLEAN), rm -rf, direct writes to production, and merging your own pull request."
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "./scripts/hooks/stop-guard.sh",
+        "$comment": "Will not end a session while fast gates report a finding, or while an audit round has open findings. Disarms itself on its own criterion; AUDIT_OFF is the manual override."
+      }
+    ]
+  },
+  "permissions": {
+    "deny": [
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(gh pr merge*)",
+      "Read(./.env)",
+      "Read(./**/*.pem)",
+      "Read(./**/*.key)"
+    ]
+  }
+}

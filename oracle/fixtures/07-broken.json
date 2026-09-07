@@ -1,0 +1,21 @@
+{
+  "samples": [
+    {
+      "device": "A-14",
+      "at": "tohle neni cas",
+      "quantity": "temperature",
+      "value": 1.0
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:00:00Z",
+      "value": 2.0
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:00:00Z",
+      "quantity": "temperature",
+      "value": 20.0
+    }
+  ]
+}

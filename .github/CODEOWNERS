@@ -1,0 +1,13 @@
+# Směrování review. Chybějící pravidlo je NEVIDITELNÉ — review se prostě nevyžádá.
+# Poslední pravidlo vyhrává, takže na pořadí záleží: obecné napřed, konkrétní potom.
+
+*                       @garant
+
+# Orákulum vlastní ten, kdo nepíše kód. Kdyby si ho měnil autor implementace,
+# přestane být nezávislé a testy začnou potvrzovat samy sebe.
+/oracle/                @vlastnik-orakula
+
+# Brány a pipeline mění garant. Změkčit bránu je rozhodnutí, ne úprava.
+/scripts/               @garant
+/.github/workflows/     @garant
+/deploy.sh              @garant

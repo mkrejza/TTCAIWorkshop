@@ -1,0 +1,19 @@
+# Normalise line endings. Mixed endings turn a one-line change into a whole-file diff, and
+# review then stops looking.
+* text=auto eol=lf
+*.sh text eol=lf
+
+# Binary — never diffed, never merged. A merge of a 3D model produces a corrupt model.
+*.pdf     binary
+*.png     binary
+*.step    binary
+*.stp     binary
+*.STEP    binary
+
+# Generated: excluded from language statistics and collapsed in review, because reading a
+# generated diff wastes the reviewer's attention on the wrong artefact.
+firmware/common/generated/**  linguist-generated=true
+platform/**/generated/**      linguist-generated=true
+
+# Documentation is the deliverable, not vendored code — count it.
+docs/**   linguist-documentation=false

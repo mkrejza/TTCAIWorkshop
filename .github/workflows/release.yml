@@ -1,0 +1,36 @@
+name: Vydání
+
+# Spouští ho ZNAČKA, kterou vyrobí ./deploy.sh — tedy člověk, vědomě.
+# Staging se mění při každém sloučení; vydání je okamžik, ke kterému se dá vrátit.
+on:
+  push:
+    tags: ['app-v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Brány běží ZNOVU nad označkovaným commitem. Že prošly na main neznamená,
+      # že prošly nad tím, co se právě vydává.
+      - name: Brány nad označkovaným commitem
+        run: bash scripts/gate.sh
+
+      - name: Zabalit artefakt
+        run: zip -r "prehravac-${GITHUB_REF_NAME}.zip" src oracle README.md
+
+      - name: Vytvořit vydání
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            "prehravac-${GITHUB_REF_NAME}.zip" \
+            --title "$GITHUB_REF_NAME" \
+            --generate-notes
+        env:
+          GH_TOKEN: ${{ github.token }}

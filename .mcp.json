@@ -1,0 +1,36 @@
+{
+  "$comment": [
+    "Evidence práce je zdrojem pravdy o PRÁCI, dokumentace o PRODUKTU.",
+    "",
+    "Agent běží pod VLASTNÍM, zřetelně označeným služebním účtem, nikdy pod účtem člověka:",
+    "záznam v žurnálu, který tvrdí, že něco udělal člověk, zatímco to udělal nástroj, jsou",
+    "sdílené přihlašovací údaje a auditní stopu spíš znehodnotí, než ochrání.",
+    "",
+    "Služební účet SMÍ měnit stavy a doplňovat záznamy. NIKDY nesmí být odpovědným na",
+    "ticketu a tři úkony zůstávají člověku, protože jsou to rozhodnutí, ne záznamy:",
+    "schválení code review, převzetí a uzavření ticketu.",
+    "",
+    "HRANICI NEURČUJE TENHLE SOUBOR, ale role v evidenci: workflow bez koncových stavů,",
+    "priorita a odpovědný jen ke čtení, povinná vlastní pole, členství omezené na cvičný",
+    "projekt. Volání, na které role nemá nárok, selže bez ohledu na to, jaké nástroje",
+    "server nabízí. Dvě podmínky, jinak nic z toho neplatí: účet NESMÍ být správce",
+    "(správce obchází oprávnění) a NESMÍ spravovat členství (jinak si sám rozšíří rozsah).",
+    "",
+    "PRO WORKSHOP: obraz níž je zástupný. Přístupové údaje patří do infra/mcp/redmine.env,",
+    "který je v .gitignore — do repozitáře se necommitují."
+  ],
+  "mcpServers": {
+    "redmine": {
+      "command": "docker",
+      "args": [
+        "run", "--rm", "-i",
+        "--env-file", "infra/mcp/redmine.env",
+        "ghcr.io/<dodavatel>/redmine-mcp-server@sha256:<digest>"
+      ],
+      "env": {
+        "REDMINE_URL": "${REDMINE_URL}",
+        "REDMINE_API_KEY": "${REDMINE_API_KEY}"
+      }
+    }
+  }
+}
