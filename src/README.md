@@ -11,4 +11,14 @@ jsou dané** a nedomlouvají se:
 
 Tvar výsledku odpovídá souborům v `oracle/expected/`.
 
+## Co je dodané a nepíšete to
+
+| Soubor | Co dělá |
+|---|---|
+| `view/chart.mjs` | `renderChart(prvek, body)` — osy, škálování, křivka. **Zavoláte ji, nepíšete ji** |
+| `index.html` | Kostra stránky: výběr souboru, `#segments`, `#chart`, `#error` |
+
+Kreslení os je pracné a nic se na něm neučí. **Zbytek je na vás** — `view/app.mjs`,
+který data načte, nechá zpracovat a výsledek do těch prvků zapíše.
+
 Všechno ostatní — jak se to uvnitř udělá, kolik souborů, jaké funkce — **je na týmu.**

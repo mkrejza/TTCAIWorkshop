@@ -22,9 +22,12 @@ Ke každému pravidlu patří **číslo nebo podmínka**, ne popis záměru. „
 
 ## Očekávané výstupy
 
-Adresář `expected/` je **prázdný a naplní ho tým**. Ke každému záznamu z `fixtures/`
-patří soubor téhož jména s výsledkem, který **z pravidel plyne** — spočítaný rukou,
-ne puštěním kódu.
+Adresář `expected/` je **prázdný a naplní ho tým**. Ke každému záznamu patří soubor
+téhož jména s výsledkem, který **z pravidel plyne** — spočítaný rukou, ne puštěním kódu.
+
+**Začněte čtyřmi:** `01-clean`, `03-same-second`, `05-gap`, `06-empty`. Pokrývají základ,
+rozhodnutí o shodě vzorků, dělení úseků a prázdný vstup. Zbylé čtyři dopočítáte, až
+u nich budete psát testy — dřív je nepotřebujete.
 
 Tvar výsledku:
 

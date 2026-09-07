@@ -1,0 +1,22 @@
+<!doctype html>
+<!-- DODANÁ KOSTRA — prvky a jejich id jsou dané, chování si napíšete v view/app.mjs. -->
+<meta charset="utf-8">
+<title>Přehrávač záznamů</title>
+<style>
+  body { font: 14px system-ui, sans-serif; margin: 2rem; max-width: 52rem; }
+  h1 { font-size: 1.2rem; }
+  #segments { list-style: none; padding: 0; }
+  #segments li { padding: .4rem .6rem; border-bottom: 1px solid #eee; cursor: pointer; }
+  #segments li[aria-selected="true"] { background: #eef7fa; }
+  #error { color: #b00; }
+</style>
+
+<h1>Přehrávač záznamů</h1>
+
+<p><input type="file" id="file" accept="application/json"></p>
+<p id="error" role="alert"></p>
+
+<ul id="segments"></ul>
+<div id="chart"></div>
+
+<script type="module" src="./view/app.mjs"></script>
