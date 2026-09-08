@@ -2,28 +2,58 @@ name: CI
 
 on:
   pull_request:
-  # Volá ho staging.yml po sloučení. Bez workflow_call GitHub to volání odmítne
-  # a běh spadne dřív, než se cokoli spustí.
+  # Volá ho staging.yml po sloučení. Bez workflow_call GitHub to volání odmítne.
   workflow_call:
 
+# KAŽDÁ BRÁNA JE VLASTNÍ JOB. V grafu běhu je pak vidět, KTERÁ spadla, aniž
+# by kdokoli otevíral log — a to je přesně dovednost, kterou se tu učíme.
+# Běží souběžně; žádná na jiné nezávisí.
 jobs:
-  gates:
+  pokryti-pozadavku:
+    name: Pokrytí požadavků
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
+      - uses: actions/checkout@v5
+      - run: bash scripts/gate-requirement-coverage.sh
 
-      # Brány běží v tomtéž pořadí jako lokální `/gate`, aby se výsledek nelišil
-      # podle toho, kde se spustí. Každá hlásí, co tvrdí, ne surový výstup nástroje.
-      - name: Pokrytí požadavků
-        run: bash scripts/gate-requirement-coverage.sh
-      - name: Izolace modulů
-        run: bash scripts/gate-isolation.sh
-      - name: Testy
-        run: npm test
-      - name: Determinismus
-        run: bash scripts/gate-determinism.sh
-      - name: Dvojí důkaz
-        run: bash scripts/gate-negative-proof.sh
+  izolace-modulu:
+    name: Izolace modulů
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: bash scripts/gate-isolation.sh
+
+  testy:
+    name: Testy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - run: npm test
+
+  determinismus:
+    name: Determinismus
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - run: bash scripts/gate-determinism.sh
+
+  dvoji-dukaz:
+    name: Dvojí důkaz
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: '22' }
+      - run: bash scripts/gate-negative-proof.sh
+
+  # Jediný job, na který se váže ochrana hlavní větve. Zezelená, až projdou všechny.
+  brany:
+    name: Brány prošly
+    needs: [pokryti-pozadavku, izolace-modulu, testy, determinismus, dvoji-dukaz]
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Všech pět bran prošlo."
