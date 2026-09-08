@@ -11,7 +11,7 @@ Připravené je to, co se za běhu nestíhá:
 | Soubor | Co v něm je |
 |---|---|
 | `ZADANI.md` | Produktové zadání, včetně dvou nedořečených míst |
-| `POZADAVKY.md` | Registr požadavků REC-001 až REC-008 |
+| `POZADAVKY.md` | Registr požadavků REC-001 až REC-009 |
 | `oracle/` | Záznamy s ručně ověřeným očekávaným výstupem |
 | `scripts/` | Čtyři brány |
 | `.github/workflows/ci.yml` | Pipeline — brány při každém pull requestu |
