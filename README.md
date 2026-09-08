@@ -20,6 +20,7 @@ Připravené je to, co se za běhu nestíhá:
 | `.github/workflows/release.yml` | **Vydání**: spouští ho značka od `deploy.sh`, brány běží znovu |
 | `deploy.sh` | Zábradlí vydání — verze, značka, čistota stromu, zelené brány |
 | `scripts/check-setup.sh` | Ověření stroje **den předem** |
+| `scripts/test.sh` | Obal nad `node --test`; nad prázdným `tests/` řekne proč, místo výpisu zásobníku |
 | `src/` | **Prázdné.** Sem to napíše sál |
 | `.claude/commands/` | Postupy `/gate`, `/breakdown`, `/review`, `/report`, `/docs-check`, `/deploy` |
 | `.claude/settings.json` | Hooky — **vynucení, ne rada**: formátování dotčených souborů, zákaz nebezpečných příkazů, zábrana proti ukončení sezení nad rozdělanou prací |

@@ -1,9 +1,8 @@
 # Přehrávač záznamů · produktové zadání
 
-**Verze 1.0 · cvičný projekt pro workshop vývojové metodiky**
+**Verze 1.0**
 
-Tento dokument je záměrně krátký a **záměrně na dvou místech nedořečený**.
-Nedořečená místa nejsou chyba k opravení před workshopem — jsou jeho obsahem.
+Zadání od produktu. Krátké, jak bývají.
 
 ## K čemu to je
 
@@ -29,18 +28,6 @@ Běží v prohlížeči, bez serveru. Soubor se otevře z disku.
 
 Vzorky **přicházejí opakovaně a v přeházeném pořadí** — zařízení posílá dávky znovu,
 když si není jisté doručením, a dávky se cestou předbíhají.
-
-## Co zadání neříká
-
-Tyto věci **musí rozhodnout tým** dřív, než se začne psát:
-
-| Otázka | Proč na tom záleží |
-|---|---|
-| Co ukončuje úsek — jak dlouhá mezera v datech? | Bez toho neexistuje seznam úseků |
-| Kdy jsou dva vzorky **totéž měření** a kdy dvě různá? | Bez toho neexistuje deduplikace |
-| Co s vzorkem, který je starší než poslední zpracovaný? | Přijmout, zahodit, zařadit |
-| V jakém časovém pásmu se zobrazuje čas? | Data jsou v UTC, technik není |
-| Co dělá prázdný nebo poškozený soubor? | Nesmí to spadnout |
 
 ## Co je hotovo
 
