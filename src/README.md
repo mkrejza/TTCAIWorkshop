@@ -16,10 +16,14 @@ Tvar výsledku odpovídá souborům v `oracle/expected/`.
 | Soubor | Co dělá |
 |---|---|
 | `view/chart.mjs` | `renderChart(prvek, body)` — osy, škálování, křivka. **Zavoláte ji, nepíšete ji** |
-| `index.html` | Kostra stránky: výběr souboru, `#segments`, `#chart`, `#error` |
+| `index.html` | Kostra stránky: `#sample`, `#file`, `#segments`, `#chart`, `#error` |
 | `cli.mjs` | Propojení modulů. **Doplňujete moduly, ne tenhle soubor** — jinak si ho čtyři týmy založí každý po svém |
 
 Kreslení os je pracné a nic se na něm neučí. **Zbytek je na vás** — `view/app.mjs`,
 který data načte, nechá zpracovat a výsledek do těch prvků zapíše.
+
+**Dva vstupy, jedna cesta.** `#file` bere soubor z disku, `#sample` stáhne ukázkový
+záznam z `zaznamy/` na téže adrese — na telefonu není odkud soubor vzít. Oba skončí
+v témž zpracování.
 
 Všechno ostatní — jak se to uvnitř udělá, kolik souborů, jaké funkce — **je na týmu.**

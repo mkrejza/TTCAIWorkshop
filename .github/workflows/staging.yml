@@ -31,8 +31,15 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: actions/configure-pages@v5
+      # Vystavuje se i orákulum. Bez záznamů nemá nasazená aplikace co otevřít
+      # a slib „adresa, kterou si otevřete v telefonu" nejde splnit.
+      - name: Sestavit web
+        run: |
+          mkdir -p _site
+          cp -r src/. _site/
+          mkdir -p _site/zaznamy && cp oracle/fixtures/*.json _site/zaznamy/
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: src
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4

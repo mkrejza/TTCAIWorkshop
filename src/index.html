@@ -13,7 +13,19 @@
 
 <h1>Přehrávač záznamů</h1>
 
-<p><input type="file" id="file" accept="application/json"></p>
+<p>
+  <label for="sample">Ukázkový záznam</label>
+  <select id="sample">
+    <option value="">— vyberte —</option>
+    <option value="zaznamy/00-tiny.json">00-tiny · dvanáct vzorků</option>
+    <option value="zaznamy/01-clean.json">01-clean · dvě zařízení</option>
+    <option value="zaznamy/03-same-second.json">03-same-second</option>
+    <option value="zaznamy/05-gap.json">05-gap · mezera 47 minut</option>
+    <option value="zaznamy/07-broken.json">07-broken · nečitelné vzorky</option>
+  </select>
+</p>
+
+<p>nebo <input type="file" id="file" accept="application/json"></p>
 <p id="error" role="alert"></p>
 
 <ul id="segments"></ul>

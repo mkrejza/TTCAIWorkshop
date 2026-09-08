@@ -11,5 +11,6 @@ Cvičný registr. Formát je totožný s ostrým registrem v `docs/04-pozadavky.
 | REC-004 | Vzorky jednoho zařízení se dělí na **úseky**; nový úsek začíná po mezeře delší než dohodnutá mez. | T |
 | REC-005 | Seznam úseků ukazuje **začátek, konec, počet vzorků a rozsah hodnot**. | T |
 | REC-006 | Vybraný úsek se vykreslí jako **graf hodnoty v čase**. | D |
+| REC-009 | Záznam jde načíst **ze souboru i z nabídky ukázek** na téže adrese. | D |
 | REC-007 | Prázdný ani poškozený vstup **neshodí aplikaci**; hlásí se, co je špatně. | T |
 | REC-008 | Načtení téhož souboru **dvakrát dá totožný výsledek**. | T |
