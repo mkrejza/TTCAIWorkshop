@@ -40,16 +40,22 @@ Tvar výsledku:
 
 ## Záznamy
 
-| Soubor | Co obsahuje |
-|---|---|
-| `01-clean.json` | Souvislé měření bez podrazů |
-| `02-duplicates.json` | Jeden vzorek se v souboru opakuje |
-| `03-same-second.json` | **Dvě hodnoty od téhož zařízení ve stejné vteřině** |
-| `04-shuffled.json` | Přeházené pořadí, jinak shodné s `01` |
-| `05-gap.json` | Mezera uprostřed |
-| `06-empty.json` | Prázdný seznam vzorků |
-| `07-broken.json` | Chybějící pole a nečitelný čas |
-| `08-late.json` | Vzorek, který přijde po novějším |
+Data jsou ze **dvou zařízení** — `A-14` měří teplotu po 30 s, `B-07` po 45 s v jiném
+rozsahu. Ručně je neprojdete; to je záměr.
+
+| Soubor | Vzorků | Co obsahuje |
+|---|---|---|
+| `01-clean.json` | 487 | Obě zařízení, jedna mezera u `A-14` |
+| `02-duplicates.json` | 542 | Dvě dávky doručené znovu |
+| `03-same-second.json` | 492 | **Dvě různé hodnoty od téhož zařízení ve stejné vteřině** |
+| `04-shuffled.json` | 487 | Přeházené pořadí, jinak shodné s `01` |
+| `05-gap.json` | 327 | Jen `A-14`, mezera 47 minut |
+| `06-empty.json` | 0 | Prázdný seznam |
+| `07-broken.json` | 64 | Nečitelný čas, chybějící pole, hodnota jako text |
+| `08-late.json` | 120 | Vzorek doručený po novějším |
+
+**Nepočítejte jednotlivé vzorky.** U každého záznamu stačí `count`, `min`, `max`
+a hranice úseků — a ty se odvozují z pravidel, ne z dat.
 
 **U každého se ptejte: co tenhle soubor zkouší a jaký má být výsledek?** Kde odpověď
 neplyne z pravidel, chybí pravidlo — a to je nález, ne překážka.

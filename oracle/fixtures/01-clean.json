@@ -4,61 +4,2923 @@
       "device": "A-14",
       "at": "2026-03-01T08:00:00Z",
       "quantity": "temperature",
-      "value": 20.0
+      "value": 21.53
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:00:30Z",
+      "quantity": "temperature",
+      "value": 21.67
     },
     {
       "device": "A-14",
       "at": "2026-03-01T08:01:00Z",
       "quantity": "temperature",
-      "value": 20.1
+      "value": 21.56
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:01:30Z",
+      "quantity": "temperature",
+      "value": 21.72
     },
     {
       "device": "A-14",
       "at": "2026-03-01T08:02:00Z",
       "quantity": "temperature",
-      "value": 20.2
+      "value": 21.55
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:02:30Z",
+      "quantity": "temperature",
+      "value": 21.79
     },
     {
       "device": "A-14",
       "at": "2026-03-01T08:03:00Z",
       "quantity": "temperature",
-      "value": 20.3
+      "value": 21.95
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:03:30Z",
+      "quantity": "temperature",
+      "value": 22.06
     },
     {
       "device": "A-14",
       "at": "2026-03-01T08:04:00Z",
       "quantity": "temperature",
-      "value": 20.4
+      "value": 22.11
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:04:30Z",
+      "quantity": "temperature",
+      "value": 22.09
     },
     {
       "device": "A-14",
       "at": "2026-03-01T08:05:00Z",
       "quantity": "temperature",
-      "value": 20.5
+      "value": 22.18
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:05:30Z",
+      "quantity": "temperature",
+      "value": 22.19
     },
     {
       "device": "A-14",
       "at": "2026-03-01T08:06:00Z",
       "quantity": "temperature",
-      "value": 20.6
+      "value": 22.25
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:06:30Z",
+      "quantity": "temperature",
+      "value": 22.56
     },
     {
       "device": "A-14",
       "at": "2026-03-01T08:07:00Z",
       "quantity": "temperature",
-      "value": 20.7
+      "value": 22.49
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:07:30Z",
+      "quantity": "temperature",
+      "value": 22.62
     },
     {
       "device": "A-14",
       "at": "2026-03-01T08:08:00Z",
       "quantity": "temperature",
-      "value": 20.8
+      "value": 22.44
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:08:30Z",
+      "quantity": "temperature",
+      "value": 22.64
     },
     {
       "device": "A-14",
       "at": "2026-03-01T08:09:00Z",
       "quantity": "temperature",
-      "value": 20.9
+      "value": 22.69
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:09:30Z",
+      "quantity": "temperature",
+      "value": 22.77
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:10:00Z",
+      "quantity": "temperature",
+      "value": 22.81
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:10:30Z",
+      "quantity": "temperature",
+      "value": 22.78
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:11:00Z",
+      "quantity": "temperature",
+      "value": 22.75
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:11:30Z",
+      "quantity": "temperature",
+      "value": 22.99
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:12:00Z",
+      "quantity": "temperature",
+      "value": 23.03
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:12:30Z",
+      "quantity": "temperature",
+      "value": 23.11
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:13:00Z",
+      "quantity": "temperature",
+      "value": 23.21
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:13:30Z",
+      "quantity": "temperature",
+      "value": 22.99
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:14:00Z",
+      "quantity": "temperature",
+      "value": 23.01
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:14:30Z",
+      "quantity": "temperature",
+      "value": 23.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:15:00Z",
+      "quantity": "temperature",
+      "value": 23.1
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:15:30Z",
+      "quantity": "temperature",
+      "value": 23.34
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:16:00Z",
+      "quantity": "temperature",
+      "value": 23.29
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:16:30Z",
+      "quantity": "temperature",
+      "value": 23.12
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:17:00Z",
+      "quantity": "temperature",
+      "value": 23.41
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:17:30Z",
+      "quantity": "temperature",
+      "value": 23.34
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:18:00Z",
+      "quantity": "temperature",
+      "value": 23.52
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:18:30Z",
+      "quantity": "temperature",
+      "value": 23.41
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:19:00Z",
+      "quantity": "temperature",
+      "value": 23.34
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:19:30Z",
+      "quantity": "temperature",
+      "value": 23.35
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:20:00Z",
+      "quantity": "temperature",
+      "value": 23.34
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:20:30Z",
+      "quantity": "temperature",
+      "value": 23.13
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:21:00Z",
+      "quantity": "temperature",
+      "value": 23.27
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:21:30Z",
+      "quantity": "temperature",
+      "value": 23.29
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:22:00Z",
+      "quantity": "temperature",
+      "value": 22.01
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:22:30Z",
+      "quantity": "temperature",
+      "value": 23.1
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:23:00Z",
+      "quantity": "temperature",
+      "value": 23.28
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:23:30Z",
+      "quantity": "temperature",
+      "value": 23.22
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:24:00Z",
+      "quantity": "temperature",
+      "value": 23.22
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:24:30Z",
+      "quantity": "temperature",
+      "value": 23.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:25:00Z",
+      "quantity": "temperature",
+      "value": 23.0
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:25:30Z",
+      "quantity": "temperature",
+      "value": 23.03
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:26:00Z",
+      "quantity": "temperature",
+      "value": 21.38
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:26:30Z",
+      "quantity": "temperature",
+      "value": 22.99
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:27:00Z",
+      "quantity": "temperature",
+      "value": 22.97
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:27:30Z",
+      "quantity": "temperature",
+      "value": 22.73
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:28:00Z",
+      "quantity": "temperature",
+      "value": 22.91
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:28:30Z",
+      "quantity": "temperature",
+      "value": 22.86
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:29:00Z",
+      "quantity": "temperature",
+      "value": 22.64
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:29:30Z",
+      "quantity": "temperature",
+      "value": 22.67
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:30:00Z",
+      "quantity": "temperature",
+      "value": 22.66
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:30:30Z",
+      "quantity": "temperature",
+      "value": 21.67
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:31:00Z",
+      "quantity": "temperature",
+      "value": 22.33
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:31:30Z",
+      "quantity": "temperature",
+      "value": 22.43
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:32:00Z",
+      "quantity": "temperature",
+      "value": 20.89
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:32:30Z",
+      "quantity": "temperature",
+      "value": 22.26
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:33:00Z",
+      "quantity": "temperature",
+      "value": 22.28
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:33:30Z",
+      "quantity": "temperature",
+      "value": 22.05
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:34:00Z",
+      "quantity": "temperature",
+      "value": 22.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:34:30Z",
+      "quantity": "temperature",
+      "value": 21.99
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:35:00Z",
+      "quantity": "temperature",
+      "value": 21.95
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:35:30Z",
+      "quantity": "temperature",
+      "value": 21.87
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:36:00Z",
+      "quantity": "temperature",
+      "value": 21.48
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:36:30Z",
+      "quantity": "temperature",
+      "value": 21.66
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:37:00Z",
+      "quantity": "temperature",
+      "value": 21.52
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:37:30Z",
+      "quantity": "temperature",
+      "value": 21.33
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:38:00Z",
+      "quantity": "temperature",
+      "value": 21.48
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:38:30Z",
+      "quantity": "temperature",
+      "value": 21.43
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:39:00Z",
+      "quantity": "temperature",
+      "value": 21.19
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:39:30Z",
+      "quantity": "temperature",
+      "value": 21.13
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:40:00Z",
+      "quantity": "temperature",
+      "value": 21.26
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:40:30Z",
+      "quantity": "temperature",
+      "value": 21.23
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:41:00Z",
+      "quantity": "temperature",
+      "value": 21.01
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:41:30Z",
+      "quantity": "temperature",
+      "value": 20.86
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:42:00Z",
+      "quantity": "temperature",
+      "value": 20.72
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:42:30Z",
+      "quantity": "temperature",
+      "value": 20.86
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:43:00Z",
+      "quantity": "temperature",
+      "value": 20.77
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:43:30Z",
+      "quantity": "temperature",
+      "value": 20.71
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:44:00Z",
+      "quantity": "temperature",
+      "value": 20.68
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:44:30Z",
+      "quantity": "temperature",
+      "value": 20.59
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:45:00Z",
+      "quantity": "temperature",
+      "value": 20.59
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:45:30Z",
+      "quantity": "temperature",
+      "value": 20.49
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:46:00Z",
+      "quantity": "temperature",
+      "value": 20.25
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:46:30Z",
+      "quantity": "temperature",
+      "value": 20.25
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:47:00Z",
+      "quantity": "temperature",
+      "value": 20.18
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:47:30Z",
+      "quantity": "temperature",
+      "value": 20.33
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:48:00Z",
+      "quantity": "temperature",
+      "value": 20.04
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:48:30Z",
+      "quantity": "temperature",
+      "value": 20.05
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:49:00Z",
+      "quantity": "temperature",
+      "value": 20.19
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:49:30Z",
+      "quantity": "temperature",
+      "value": 20.03
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:50:00Z",
+      "quantity": "temperature",
+      "value": 19.78
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:50:30Z",
+      "quantity": "temperature",
+      "value": 19.84
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:51:00Z",
+      "quantity": "temperature",
+      "value": 19.91
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:51:30Z",
+      "quantity": "temperature",
+      "value": 19.78
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:52:00Z",
+      "quantity": "temperature",
+      "value": 19.83
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:52:30Z",
+      "quantity": "temperature",
+      "value": 19.73
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:53:00Z",
+      "quantity": "temperature",
+      "value": 19.93
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:53:30Z",
+      "quantity": "temperature",
+      "value": 19.68
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:54:00Z",
+      "quantity": "temperature",
+      "value": 19.73
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:54:30Z",
+      "quantity": "temperature",
+      "value": 19.7
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:55:00Z",
+      "quantity": "temperature",
+      "value": 19.73
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:55:30Z",
+      "quantity": "temperature",
+      "value": 19.92
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:56:00Z",
+      "quantity": "temperature",
+      "value": 19.8
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:56:30Z",
+      "quantity": "temperature",
+      "value": 19.66
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:57:00Z",
+      "quantity": "temperature",
+      "value": 19.72
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:57:30Z",
+      "quantity": "temperature",
+      "value": 19.73
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:58:00Z",
+      "quantity": "temperature",
+      "value": 19.66
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:58:30Z",
+      "quantity": "temperature",
+      "value": 19.89
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:59:00Z",
+      "quantity": "temperature",
+      "value": 19.73
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T08:59:30Z",
+      "quantity": "temperature",
+      "value": 19.82
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:00:00Z",
+      "quantity": "temperature",
+      "value": 19.73
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:00:30Z",
+      "quantity": "temperature",
+      "value": 19.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:01:00Z",
+      "quantity": "temperature",
+      "value": 19.83
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:01:30Z",
+      "quantity": "temperature",
+      "value": 19.84
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:02:00Z",
+      "quantity": "temperature",
+      "value": 19.91
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:02:30Z",
+      "quantity": "temperature",
+      "value": 19.91
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:03:00Z",
+      "quantity": "temperature",
+      "value": 19.86
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:03:30Z",
+      "quantity": "temperature",
+      "value": 20.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:04:00Z",
+      "quantity": "temperature",
+      "value": 20.11
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:04:30Z",
+      "quantity": "temperature",
+      "value": 20.1
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:05:00Z",
+      "quantity": "temperature",
+      "value": 20.1
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:05:30Z",
+      "quantity": "temperature",
+      "value": 20.33
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:06:00Z",
+      "quantity": "temperature",
+      "value": 20.29
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:06:30Z",
+      "quantity": "temperature",
+      "value": 20.17
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:07:00Z",
+      "quantity": "temperature",
+      "value": 20.48
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:07:30Z",
+      "quantity": "temperature",
+      "value": 20.42
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:08:00Z",
+      "quantity": "temperature",
+      "value": 20.41
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:08:30Z",
+      "quantity": "temperature",
+      "value": 20.76
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:09:00Z",
+      "quantity": "temperature",
+      "value": 20.59
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:09:30Z",
+      "quantity": "temperature",
+      "value": 20.75
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:10:00Z",
+      "quantity": "temperature",
+      "value": 20.73
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:10:30Z",
+      "quantity": "temperature",
+      "value": 20.76
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:11:00Z",
+      "quantity": "temperature",
+      "value": 22.25
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:11:30Z",
+      "quantity": "temperature",
+      "value": 20.83
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:12:00Z",
+      "quantity": "temperature",
+      "value": 20.94
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:12:30Z",
+      "quantity": "temperature",
+      "value": 21.03
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:13:00Z",
+      "quantity": "temperature",
+      "value": 21.14
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:13:30Z",
+      "quantity": "temperature",
+      "value": 21.36
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:14:00Z",
+      "quantity": "temperature",
+      "value": 21.44
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:14:30Z",
+      "quantity": "temperature",
+      "value": 21.41
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:15:00Z",
+      "quantity": "temperature",
+      "value": 21.63
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:15:30Z",
+      "quantity": "temperature",
+      "value": 21.64
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:16:00Z",
+      "quantity": "temperature",
+      "value": 21.6
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:16:30Z",
+      "quantity": "temperature",
+      "value": 21.62
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:17:00Z",
+      "quantity": "temperature",
+      "value": 21.71
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:17:30Z",
+      "quantity": "temperature",
+      "value": 21.77
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:18:00Z",
+      "quantity": "temperature",
+      "value": 21.72
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:18:30Z",
+      "quantity": "temperature",
+      "value": 21.96
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:19:00Z",
+      "quantity": "temperature",
+      "value": 22.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:19:30Z",
+      "quantity": "temperature",
+      "value": 21.97
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:20:00Z",
+      "quantity": "temperature",
+      "value": 22.35
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:20:30Z",
+      "quantity": "temperature",
+      "value": 22.25
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:21:00Z",
+      "quantity": "temperature",
+      "value": 22.27
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:21:30Z",
+      "quantity": "temperature",
+      "value": 22.39
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:22:00Z",
+      "quantity": "temperature",
+      "value": 22.42
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:22:30Z",
+      "quantity": "temperature",
+      "value": 22.37
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:23:00Z",
+      "quantity": "temperature",
+      "value": 22.5
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:23:30Z",
+      "quantity": "temperature",
+      "value": 21.48
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:24:00Z",
+      "quantity": "temperature",
+      "value": 22.73
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:24:30Z",
+      "quantity": "temperature",
+      "value": 22.81
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:25:00Z",
+      "quantity": "temperature",
+      "value": 22.71
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:25:30Z",
+      "quantity": "temperature",
+      "value": 22.81
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:26:00Z",
+      "quantity": "temperature",
+      "value": 22.96
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:26:30Z",
+      "quantity": "temperature",
+      "value": 22.93
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:27:00Z",
+      "quantity": "temperature",
+      "value": 22.93
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:27:30Z",
+      "quantity": "temperature",
+      "value": 23.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:28:00Z",
+      "quantity": "temperature",
+      "value": 23.11
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:28:30Z",
+      "quantity": "temperature",
+      "value": 23.16
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:29:00Z",
+      "quantity": "temperature",
+      "value": 23.18
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:29:30Z",
+      "quantity": "temperature",
+      "value": 23.17
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:30:00Z",
+      "quantity": "temperature",
+      "value": 21.78
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:30:30Z",
+      "quantity": "temperature",
+      "value": 23.31
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:31:00Z",
+      "quantity": "temperature",
+      "value": 23.4
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:31:30Z",
+      "quantity": "temperature",
+      "value": 23.44
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:32:00Z",
+      "quantity": "temperature",
+      "value": 23.29
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:32:30Z",
+      "quantity": "temperature",
+      "value": 23.34
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:33:00Z",
+      "quantity": "temperature",
+      "value": 23.13
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:33:30Z",
+      "quantity": "temperature",
+      "value": 23.41
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:34:00Z",
+      "quantity": "temperature",
+      "value": 23.32
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:34:30Z",
+      "quantity": "temperature",
+      "value": 23.19
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:35:00Z",
+      "quantity": "temperature",
+      "value": 23.41
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:35:30Z",
+      "quantity": "temperature",
+      "value": 23.28
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:36:00Z",
+      "quantity": "temperature",
+      "value": 23.29
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:36:30Z",
+      "quantity": "temperature",
+      "value": 23.35
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:37:00Z",
+      "quantity": "temperature",
+      "value": 23.28
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:37:30Z",
+      "quantity": "temperature",
+      "value": 23.17
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:38:00Z",
+      "quantity": "temperature",
+      "value": 23.27
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:38:30Z",
+      "quantity": "temperature",
+      "value": 23.08
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:39:00Z",
+      "quantity": "temperature",
+      "value": 23.14
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:39:30Z",
+      "quantity": "temperature",
+      "value": 23.22
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:40:00Z",
+      "quantity": "temperature",
+      "value": 23.03
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:40:30Z",
+      "quantity": "temperature",
+      "value": 22.98
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:41:00Z",
+      "quantity": "temperature",
+      "value": 22.93
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:41:30Z",
+      "quantity": "temperature",
+      "value": 22.94
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:42:00Z",
+      "quantity": "temperature",
+      "value": 23.05
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:42:30Z",
+      "quantity": "temperature",
+      "value": 22.86
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:43:00Z",
+      "quantity": "temperature",
+      "value": 22.83
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:43:30Z",
+      "quantity": "temperature",
+      "value": 22.59
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:44:00Z",
+      "quantity": "temperature",
+      "value": 22.49
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:44:30Z",
+      "quantity": "temperature",
+      "value": 22.66
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:45:00Z",
+      "quantity": "temperature",
+      "value": 22.59
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:45:30Z",
+      "quantity": "temperature",
+      "value": 22.47
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:46:00Z",
+      "quantity": "temperature",
+      "value": 22.43
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:46:30Z",
+      "quantity": "temperature",
+      "value": 22.26
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:47:00Z",
+      "quantity": "temperature",
+      "value": 22.25
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:47:30Z",
+      "quantity": "temperature",
+      "value": 22.24
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:48:00Z",
+      "quantity": "temperature",
+      "value": 22.16
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:48:30Z",
+      "quantity": "temperature",
+      "value": 22.16
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:49:00Z",
+      "quantity": "temperature",
+      "value": 22.04
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:49:30Z",
+      "quantity": "temperature",
+      "value": 21.96
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:50:00Z",
+      "quantity": "temperature",
+      "value": 21.86
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:50:30Z",
+      "quantity": "temperature",
+      "value": 21.86
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:51:00Z",
+      "quantity": "temperature",
+      "value": 21.61
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:51:30Z",
+      "quantity": "temperature",
+      "value": 21.74
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:52:00Z",
+      "quantity": "temperature",
+      "value": 21.49
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:52:30Z",
+      "quantity": "temperature",
+      "value": 21.58
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:53:00Z",
+      "quantity": "temperature",
+      "value": 21.45
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:53:30Z",
+      "quantity": "temperature",
+      "value": 21.35
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:54:00Z",
+      "quantity": "temperature",
+      "value": 21.28
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:54:30Z",
+      "quantity": "temperature",
+      "value": 21.28
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:55:00Z",
+      "quantity": "temperature",
+      "value": 21.27
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:55:30Z",
+      "quantity": "temperature",
+      "value": 21.15
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:56:00Z",
+      "quantity": "temperature",
+      "value": 21.08
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:56:30Z",
+      "quantity": "temperature",
+      "value": 20.87
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:57:00Z",
+      "quantity": "temperature",
+      "value": 21.02
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:57:30Z",
+      "quantity": "temperature",
+      "value": 20.78
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:58:00Z",
+      "quantity": "temperature",
+      "value": 20.68
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:58:30Z",
+      "quantity": "temperature",
+      "value": 20.68
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:59:00Z",
+      "quantity": "temperature",
+      "value": 20.59
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T09:59:30Z",
+      "quantity": "temperature",
+      "value": 20.36
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:47:00Z",
+      "quantity": "temperature",
+      "value": 23.05
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:47:30Z",
+      "quantity": "temperature",
+      "value": 23.11
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:48:00Z",
+      "quantity": "temperature",
+      "value": 23.13
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:48:30Z",
+      "quantity": "temperature",
+      "value": 23.38
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:49:00Z",
+      "quantity": "temperature",
+      "value": 23.49
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:49:30Z",
+      "quantity": "temperature",
+      "value": 23.44
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:50:00Z",
+      "quantity": "temperature",
+      "value": 23.61
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:50:30Z",
+      "quantity": "temperature",
+      "value": 23.49
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:51:00Z",
+      "quantity": "temperature",
+      "value": 23.66
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:51:30Z",
+      "quantity": "temperature",
+      "value": 23.68
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:52:00Z",
+      "quantity": "temperature",
+      "value": 23.72
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:52:30Z",
+      "quantity": "temperature",
+      "value": 23.7
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:53:00Z",
+      "quantity": "temperature",
+      "value": 23.8
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:53:30Z",
+      "quantity": "temperature",
+      "value": 24.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:54:00Z",
+      "quantity": "temperature",
+      "value": 24.07
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:54:30Z",
+      "quantity": "temperature",
+      "value": 24.11
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:55:00Z",
+      "quantity": "temperature",
+      "value": 24.27
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:55:30Z",
+      "quantity": "temperature",
+      "value": 24.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:56:00Z",
+      "quantity": "temperature",
+      "value": 24.08
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:56:30Z",
+      "quantity": "temperature",
+      "value": 24.17
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:57:00Z",
+      "quantity": "temperature",
+      "value": 24.2
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:57:30Z",
+      "quantity": "temperature",
+      "value": 24.2
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:58:00Z",
+      "quantity": "temperature",
+      "value": 24.35
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:58:30Z",
+      "quantity": "temperature",
+      "value": 24.26
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:59:00Z",
+      "quantity": "temperature",
+      "value": 24.35
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T10:59:30Z",
+      "quantity": "temperature",
+      "value": 24.18
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:00:00Z",
+      "quantity": "temperature",
+      "value": 24.32
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:00:30Z",
+      "quantity": "temperature",
+      "value": 24.22
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:01:00Z",
+      "quantity": "temperature",
+      "value": 24.27
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:01:30Z",
+      "quantity": "temperature",
+      "value": 24.36
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:02:00Z",
+      "quantity": "temperature",
+      "value": 24.21
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:02:30Z",
+      "quantity": "temperature",
+      "value": 24.07
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:03:00Z",
+      "quantity": "temperature",
+      "value": 24.22
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:03:30Z",
+      "quantity": "temperature",
+      "value": 24.12
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:04:00Z",
+      "quantity": "temperature",
+      "value": 24.19
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:04:30Z",
+      "quantity": "temperature",
+      "value": 24.24
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:05:00Z",
+      "quantity": "temperature",
+      "value": 24.15
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:05:30Z",
+      "quantity": "temperature",
+      "value": 24.26
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:06:00Z",
+      "quantity": "temperature",
+      "value": 24.08
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:06:30Z",
+      "quantity": "temperature",
+      "value": 24.09
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:07:00Z",
+      "quantity": "temperature",
+      "value": 23.77
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:07:30Z",
+      "quantity": "temperature",
+      "value": 23.84
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:08:00Z",
+      "quantity": "temperature",
+      "value": 23.77
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:08:30Z",
+      "quantity": "temperature",
+      "value": 23.88
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:09:00Z",
+      "quantity": "temperature",
+      "value": 23.89
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:09:30Z",
+      "quantity": "temperature",
+      "value": 23.86
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:10:00Z",
+      "quantity": "temperature",
+      "value": 23.61
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:10:30Z",
+      "quantity": "temperature",
+      "value": 23.66
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:11:00Z",
+      "quantity": "temperature",
+      "value": 23.52
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:11:30Z",
+      "quantity": "temperature",
+      "value": 23.57
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:12:00Z",
+      "quantity": "temperature",
+      "value": 23.51
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:12:30Z",
+      "quantity": "temperature",
+      "value": 23.12
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:13:00Z",
+      "quantity": "temperature",
+      "value": 23.26
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:13:30Z",
+      "quantity": "temperature",
+      "value": 23.22
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:14:00Z",
+      "quantity": "temperature",
+      "value": 23.18
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:14:30Z",
+      "quantity": "temperature",
+      "value": 22.95
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:15:00Z",
+      "quantity": "temperature",
+      "value": 23.19
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:15:30Z",
+      "quantity": "temperature",
+      "value": 22.83
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:16:00Z",
+      "quantity": "temperature",
+      "value": 23.02
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:16:30Z",
+      "quantity": "temperature",
+      "value": 24.43
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:17:00Z",
+      "quantity": "temperature",
+      "value": 22.67
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:17:30Z",
+      "quantity": "temperature",
+      "value": 22.54
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:18:00Z",
+      "quantity": "temperature",
+      "value": 22.59
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:18:30Z",
+      "quantity": "temperature",
+      "value": 22.46
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:19:00Z",
+      "quantity": "temperature",
+      "value": 22.63
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:19:30Z",
+      "quantity": "temperature",
+      "value": 22.62
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:20:00Z",
+      "quantity": "temperature",
+      "value": 22.45
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:20:30Z",
+      "quantity": "temperature",
+      "value": 22.37
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:21:00Z",
+      "quantity": "temperature",
+      "value": 22.26
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:21:30Z",
+      "quantity": "temperature",
+      "value": 22.23
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:22:00Z",
+      "quantity": "temperature",
+      "value": 22.23
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:22:30Z",
+      "quantity": "temperature",
+      "value": 20.79
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:23:00Z",
+      "quantity": "temperature",
+      "value": 22.29
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:23:30Z",
+      "quantity": "temperature",
+      "value": 22.09
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:24:00Z",
+      "quantity": "temperature",
+      "value": 21.96
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:24:30Z",
+      "quantity": "temperature",
+      "value": 21.94
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:25:00Z",
+      "quantity": "temperature",
+      "value": 22.17
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:25:30Z",
+      "quantity": "temperature",
+      "value": 22.0
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:26:00Z",
+      "quantity": "temperature",
+      "value": 22.03
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:26:30Z",
+      "quantity": "temperature",
+      "value": 21.83
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:27:00Z",
+      "quantity": "temperature",
+      "value": 22.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:27:30Z",
+      "quantity": "temperature",
+      "value": 21.9
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:28:00Z",
+      "quantity": "temperature",
+      "value": 21.96
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:28:30Z",
+      "quantity": "temperature",
+      "value": 22.06
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:29:00Z",
+      "quantity": "temperature",
+      "value": 21.92
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:29:30Z",
+      "quantity": "temperature",
+      "value": 22.12
+    },
+    {
+      "device": "A-14",
+      "at": "2026-03-01T11:30:00Z",
+      "quantity": "temperature",
+      "value": 21.98
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:10:00Z",
+      "quantity": "temperature",
+      "value": 6.39
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:10:45Z",
+      "quantity": "temperature",
+      "value": 6.31
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:11:30Z",
+      "quantity": "temperature",
+      "value": 6.54
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:12:15Z",
+      "quantity": "temperature",
+      "value": 6.63
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:13:00Z",
+      "quantity": "temperature",
+      "value": 6.7
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:13:45Z",
+      "quantity": "temperature",
+      "value": 6.7
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:14:30Z",
+      "quantity": "temperature",
+      "value": 6.72
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:15:15Z",
+      "quantity": "temperature",
+      "value": 6.93
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:16:00Z",
+      "quantity": "temperature",
+      "value": 7.02
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:16:45Z",
+      "quantity": "temperature",
+      "value": 6.84
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:17:30Z",
+      "quantity": "temperature",
+      "value": 7.02
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:18:15Z",
+      "quantity": "temperature",
+      "value": 7.04
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:19:00Z",
+      "quantity": "temperature",
+      "value": 7.04
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:19:45Z",
+      "quantity": "temperature",
+      "value": 7.05
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:20:30Z",
+      "quantity": "temperature",
+      "value": 7.2
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:21:15Z",
+      "quantity": "temperature",
+      "value": 7.16
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:22:00Z",
+      "quantity": "temperature",
+      "value": 7.2
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:22:45Z",
+      "quantity": "temperature",
+      "value": 7.31
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:23:30Z",
+      "quantity": "temperature",
+      "value": 7.28
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:24:15Z",
+      "quantity": "temperature",
+      "value": 7.17
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:25:00Z",
+      "quantity": "temperature",
+      "value": 7.35
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:25:45Z",
+      "quantity": "temperature",
+      "value": 7.33
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:26:30Z",
+      "quantity": "temperature",
+      "value": 7.35
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:27:15Z",
+      "quantity": "temperature",
+      "value": 7.28
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:28:00Z",
+      "quantity": "temperature",
+      "value": 7.32
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:28:45Z",
+      "quantity": "temperature",
+      "value": 7.41
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:29:30Z",
+      "quantity": "temperature",
+      "value": 7.37
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:30:15Z",
+      "quantity": "temperature",
+      "value": 7.3
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:31:00Z",
+      "quantity": "temperature",
+      "value": 7.1
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:31:45Z",
+      "quantity": "temperature",
+      "value": 7.3
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:32:30Z",
+      "quantity": "temperature",
+      "value": 7.26
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:33:15Z",
+      "quantity": "temperature",
+      "value": 7.17
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:34:00Z",
+      "quantity": "temperature",
+      "value": 7.11
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:34:45Z",
+      "quantity": "temperature",
+      "value": 7.11
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:35:30Z",
+      "quantity": "temperature",
+      "value": 7.1
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:36:15Z",
+      "quantity": "temperature",
+      "value": 6.94
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:37:00Z",
+      "quantity": "temperature",
+      "value": 6.89
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:37:45Z",
+      "quantity": "temperature",
+      "value": 6.91
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:38:30Z",
+      "quantity": "temperature",
+      "value": 6.89
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:39:15Z",
+      "quantity": "temperature",
+      "value": 6.87
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:40:00Z",
+      "quantity": "temperature",
+      "value": 6.8
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:40:45Z",
+      "quantity": "temperature",
+      "value": 6.59
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:41:30Z",
+      "quantity": "temperature",
+      "value": 6.55
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:42:15Z",
+      "quantity": "temperature",
+      "value": 6.47
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:43:00Z",
+      "quantity": "temperature",
+      "value": 6.37
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:43:45Z",
+      "quantity": "temperature",
+      "value": 6.47
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:44:30Z",
+      "quantity": "temperature",
+      "value": 6.39
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:45:15Z",
+      "quantity": "temperature",
+      "value": 6.31
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:46:00Z",
+      "quantity": "temperature",
+      "value": 6.09
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:46:45Z",
+      "quantity": "temperature",
+      "value": 6.16
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:47:30Z",
+      "quantity": "temperature",
+      "value": 6.07
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:48:15Z",
+      "quantity": "temperature",
+      "value": 6.02
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:49:00Z",
+      "quantity": "temperature",
+      "value": 6.09
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:49:45Z",
+      "quantity": "temperature",
+      "value": 6.09
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:50:30Z",
+      "quantity": "temperature",
+      "value": 5.77
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:51:15Z",
+      "quantity": "temperature",
+      "value": 5.87
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:52:00Z",
+      "quantity": "temperature",
+      "value": 5.67
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:52:45Z",
+      "quantity": "temperature",
+      "value": 5.77
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:53:30Z",
+      "quantity": "temperature",
+      "value": 5.63
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:54:15Z",
+      "quantity": "temperature",
+      "value": 5.58
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:55:00Z",
+      "quantity": "temperature",
+      "value": 5.76
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:55:45Z",
+      "quantity": "temperature",
+      "value": 5.47
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:56:30Z",
+      "quantity": "temperature",
+      "value": 5.48
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:57:15Z",
+      "quantity": "temperature",
+      "value": 5.64
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:58:00Z",
+      "quantity": "temperature",
+      "value": 5.5
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:58:45Z",
+      "quantity": "temperature",
+      "value": 5.51
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T08:59:30Z",
+      "quantity": "temperature",
+      "value": 5.57
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:00:15Z",
+      "quantity": "temperature",
+      "value": 5.46
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:01:00Z",
+      "quantity": "temperature",
+      "value": 5.45
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:01:45Z",
+      "quantity": "temperature",
+      "value": 5.62
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:02:30Z",
+      "quantity": "temperature",
+      "value": 5.52
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:03:15Z",
+      "quantity": "temperature",
+      "value": 5.39
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:04:00Z",
+      "quantity": "temperature",
+      "value": 5.43
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:04:45Z",
+      "quantity": "temperature",
+      "value": 5.65
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:05:30Z",
+      "quantity": "temperature",
+      "value": 5.54
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:06:15Z",
+      "quantity": "temperature",
+      "value": 5.6
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:07:00Z",
+      "quantity": "temperature",
+      "value": 5.7
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:07:45Z",
+      "quantity": "temperature",
+      "value": 5.65
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:08:30Z",
+      "quantity": "temperature",
+      "value": 5.58
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:09:15Z",
+      "quantity": "temperature",
+      "value": 5.71
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:10:00Z",
+      "quantity": "temperature",
+      "value": 5.89
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:10:45Z",
+      "quantity": "temperature",
+      "value": 5.93
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:11:30Z",
+      "quantity": "temperature",
+      "value": 5.85
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:12:15Z",
+      "quantity": "temperature",
+      "value": 6.03
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:13:00Z",
+      "quantity": "temperature",
+      "value": 5.99
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:13:45Z",
+      "quantity": "temperature",
+      "value": 6.02
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:14:30Z",
+      "quantity": "temperature",
+      "value": 6.03
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:15:15Z",
+      "quantity": "temperature",
+      "value": 6.16
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:16:00Z",
+      "quantity": "temperature",
+      "value": 6.21
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:16:45Z",
+      "quantity": "temperature",
+      "value": 6.34
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:17:30Z",
+      "quantity": "temperature",
+      "value": 6.27
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:18:15Z",
+      "quantity": "temperature",
+      "value": 6.43
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:19:00Z",
+      "quantity": "temperature",
+      "value": 6.53
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:19:45Z",
+      "quantity": "temperature",
+      "value": 6.56
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:20:30Z",
+      "quantity": "temperature",
+      "value": 6.57
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:21:15Z",
+      "quantity": "temperature",
+      "value": 6.87
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:22:00Z",
+      "quantity": "temperature",
+      "value": 6.7
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:22:45Z",
+      "quantity": "temperature",
+      "value": 6.93
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:23:30Z",
+      "quantity": "temperature",
+      "value": 6.98
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:24:15Z",
+      "quantity": "temperature",
+      "value": 6.97
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:25:00Z",
+      "quantity": "temperature",
+      "value": 6.99
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:25:45Z",
+      "quantity": "temperature",
+      "value": 7.06
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:26:30Z",
+      "quantity": "temperature",
+      "value": 7.11
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:27:15Z",
+      "quantity": "temperature",
+      "value": 7.23
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:28:00Z",
+      "quantity": "temperature",
+      "value": 7.28
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:28:45Z",
+      "quantity": "temperature",
+      "value": 7.2
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:29:30Z",
+      "quantity": "temperature",
+      "value": 7.27
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:30:15Z",
+      "quantity": "temperature",
+      "value": 8.14
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:31:00Z",
+      "quantity": "temperature",
+      "value": 7.26
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:31:45Z",
+      "quantity": "temperature",
+      "value": 7.29
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:32:30Z",
+      "quantity": "temperature",
+      "value": 7.26
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:33:15Z",
+      "quantity": "temperature",
+      "value": 7.39
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:34:00Z",
+      "quantity": "temperature",
+      "value": 7.31
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:34:45Z",
+      "quantity": "temperature",
+      "value": 7.35
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:35:30Z",
+      "quantity": "temperature",
+      "value": 7.1
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:36:15Z",
+      "quantity": "temperature",
+      "value": 7.31
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:37:00Z",
+      "quantity": "temperature",
+      "value": 7.25
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:37:45Z",
+      "quantity": "temperature",
+      "value": 7.37
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:38:30Z",
+      "quantity": "temperature",
+      "value": 7.27
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:39:15Z",
+      "quantity": "temperature",
+      "value": 7.17
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:40:00Z",
+      "quantity": "temperature",
+      "value": 7.32
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:40:45Z",
+      "quantity": "temperature",
+      "value": 7.17
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:41:30Z",
+      "quantity": "temperature",
+      "value": 7.12
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:42:15Z",
+      "quantity": "temperature",
+      "value": 7.1
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:43:00Z",
+      "quantity": "temperature",
+      "value": 7.09
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:43:45Z",
+      "quantity": "temperature",
+      "value": 6.97
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:44:30Z",
+      "quantity": "temperature",
+      "value": 6.97
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:45:15Z",
+      "quantity": "temperature",
+      "value": 6.92
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:46:00Z",
+      "quantity": "temperature",
+      "value": 6.96
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:46:45Z",
+      "quantity": "temperature",
+      "value": 6.86
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:47:30Z",
+      "quantity": "temperature",
+      "value": 6.76
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:48:15Z",
+      "quantity": "temperature",
+      "value": 6.78
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:49:00Z",
+      "quantity": "temperature",
+      "value": 6.5
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:49:45Z",
+      "quantity": "temperature",
+      "value": 6.41
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:50:30Z",
+      "quantity": "temperature",
+      "value": 6.36
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:51:15Z",
+      "quantity": "temperature",
+      "value": 6.46
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:52:00Z",
+      "quantity": "temperature",
+      "value": 6.29
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:52:45Z",
+      "quantity": "temperature",
+      "value": 6.13
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:53:30Z",
+      "quantity": "temperature",
+      "value": 6.22
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:54:15Z",
+      "quantity": "temperature",
+      "value": 6.29
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:55:00Z",
+      "quantity": "temperature",
+      "value": 6.13
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:55:45Z",
+      "quantity": "temperature",
+      "value": 6.11
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:56:30Z",
+      "quantity": "temperature",
+      "value": 5.93
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:57:15Z",
+      "quantity": "temperature",
+      "value": 5.91
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:58:00Z",
+      "quantity": "temperature",
+      "value": 5.79
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:58:45Z",
+      "quantity": "temperature",
+      "value": 5.76
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T09:59:30Z",
+      "quantity": "temperature",
+      "value": 5.86
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:00:15Z",
+      "quantity": "temperature",
+      "value": 5.83
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:01:00Z",
+      "quantity": "temperature",
+      "value": 5.68
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:01:45Z",
+      "quantity": "temperature",
+      "value": 5.67
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:02:30Z",
+      "quantity": "temperature",
+      "value": 5.7
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:03:15Z",
+      "quantity": "temperature",
+      "value": 5.65
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:04:00Z",
+      "quantity": "temperature",
+      "value": 5.74
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:04:45Z",
+      "quantity": "temperature",
+      "value": 5.51
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:05:30Z",
+      "quantity": "temperature",
+      "value": 5.49
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:06:15Z",
+      "quantity": "temperature",
+      "value": 5.71
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:07:00Z",
+      "quantity": "temperature",
+      "value": 5.5
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:07:45Z",
+      "quantity": "temperature",
+      "value": 5.57
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:08:30Z",
+      "quantity": "temperature",
+      "value": 5.44
+    },
+    {
+      "device": "B-07",
+      "at": "2026-03-01T10:09:15Z",
+      "quantity": "temperature",
+      "value": 5.5
     }
   ]
 }

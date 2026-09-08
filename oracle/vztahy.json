@@ -1,0 +1,14 @@
+{
+  "$komentar": [
+    "Vztahy, které PLYNOU Z PRAVIDEL, ne z dat. U velkých záznamů se počty ručně",
+    "nespočítají — ale co z pravidel vyplývá, se tvrdit dá. Doplňte podle toho,",
+    "na čem jste se domluvili. Tvary jsou dané, hodnoty vaše.",
+    "",
+    "shodne     : dvojice záznamů, které musí dát TOTOŽNÝ výsledek",
+    "vicVzorku  : [A, B] — A musí mít VÍC vzorků než B",
+    "pocetUseku : kolik úseků má který záznam vyjít"
+  ],
+  "shodne": [],
+  "vicVzorku": [],
+  "pocetUseku": {}
+}

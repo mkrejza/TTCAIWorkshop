@@ -12,7 +12,6 @@ Připravené je to, co se za běhu nestíhá:
 |---|---|
 | `ZADANI.md` | Produktové zadání, včetně dvou nedořečených míst |
 | `POZADAVKY.md` | Registr požadavků REC-001 až REC-008 |
-| `LEKTOR.md` | Scénář pro lektora — kde nechat chybu vzniknout a kdy ji ukázat |
 | `oracle/` | Záznamy s ručně ověřeným očekávaným výstupem |
 | `scripts/` | Čtyři brány |
 | `.github/workflows/ci.yml` | Pipeline — brány při každém pull requestu |

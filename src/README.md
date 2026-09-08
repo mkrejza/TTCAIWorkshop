@@ -17,6 +17,7 @@ Tvar výsledku odpovídá souborům v `oracle/expected/`.
 |---|---|
 | `view/chart.mjs` | `renderChart(prvek, body)` — osy, škálování, křivka. **Zavoláte ji, nepíšete ji** |
 | `index.html` | Kostra stránky: výběr souboru, `#segments`, `#chart`, `#error` |
+| `cli.mjs` | Propojení modulů. **Doplňujete moduly, ne tenhle soubor** — jinak si ho čtyři týmy založí každý po svém |
 
 Kreslení os je pracné a nic se na něm neučí. **Zbytek je na vás** — `view/app.mjs`,
 který data načte, nechá zpracovat a výsledek do těch prvků zapíše.
