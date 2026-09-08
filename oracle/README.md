@@ -54,8 +54,23 @@ rozsahu. Ručně je neprojdete; to je záměr.
 | `07-broken.json` | 64 | Nečitelný čas, chybějící pole, hodnota jako text |
 | `08-late.json` | 120 | Vzorek doručený po novějším |
 
-**Nepočítejte jednotlivé vzorky.** U každého záznamu stačí `count`, `min`, `max`
-a hranice úseků — a ty se odvozují z pravidel, ne z dat.
+## Orákulum se píše na dvou místech
+
+**`expected/00-tiny.json`** — přesný očekávaný výsledek. Ten záznam má dvanáct vzorků,
+takže se dá spočítat rukou.
+
+**`tvrzeni.json`** — u velkých záznamů je ruční počet nesmysl. Zapisují se sem
+**tvrzení o výsledku, která plynou z pravidel**, a proto se dají ověřit, aniž kdokoli
+prochází data:
+
+| Tvrzení | Z jakého pravidla plyne |
+|---|---|
+| `02-duplicates` dá totéž co `01-clean` | opakovaný vzorek se promítne jen jednou |
+| `04-shuffled` dá totéž co `01-clean` | výsledek nezávisí na pořadí |
+| `03-same-second` má **víc** vzorků než `01-clean` | dvě různé hodnoty v téže vteřině jsou dvě měření |
+| `05-gap` má 2 úseky | mezera delší než dohodnutá mez ukončuje úsek |
+
+**Kde tvrzení napsat nejde, chybí pravidlo.** To je nález, ne překážka.
 
 **U každého se ptejte: co tenhle soubor zkouší a jaký má být výsledek?** Kde odpověď
 neplyne z pravidel, chybí pravidlo — a to je nález, ne překážka.
