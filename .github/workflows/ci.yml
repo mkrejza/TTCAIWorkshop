@@ -2,8 +2,9 @@ name: CI
 
 on:
   pull_request:
-  push:
-    branches: [main]
+  # Volá ho staging.yml po sloučení. Bez workflow_call GitHub to volání odmítne
+  # a běh spadne dřív, než se cokoli spustí.
+  workflow_call:
 
 jobs:
   gates:

@@ -57,6 +57,16 @@ node -e '
 git add package.json
 git commit -m "release($ARTEFACT): $VERSION — $COMMENT"
 git tag -a "$TAG" -m "$COMMENT"
-git push origin HEAD "$TAG"
+# Odeslání může selhat na síti nebo oprávnění. Kdyby se to nechalo být, zůstane
+# lokálně značka, která nikdy neodešla — a další pokus ji odmítne jako existující,
+# přestože se nic nevydalo.
+if ! git push origin HEAD "$TAG"; then
+  echo >&2
+  echo "Chyba: odeslání selhalo. Vracím značku a commit, aby šlo zkusit znovu." >&2
+  git tag -d "$TAG" >/dev/null
+  git reset --hard HEAD~1 >/dev/null
+  echo "       Stav je jako před spuštěním. Vyřeš přístup a pusť ./deploy.sh znovu." >&2
+  exit 1
+fi
 
 echo "Vydáno: $TAG. Sleduj pipeline až do konce — odesláním to nekončí."

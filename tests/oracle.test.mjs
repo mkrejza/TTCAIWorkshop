@@ -20,10 +20,13 @@ const tvrzeni = existsSync('oracle/tvrzeni.json')
 const nic = presne.length === 0
   && !(tvrzeni.shodne?.length || tvrzeni.vicVzorku?.length || Object.keys(tvrzeni.pocetUseku ?? {}).length);
 
+// Dokud není co měřit, orákulum se přeskočí — jinak by červený řádek kazil
+// i ukázku, která s orákulem nesouvisí. Jakmile kód existuje, jeho absence je chyba.
+const jeKod = existsSync('src/ingest/dedupe.mjs') && existsSync('src/segments/split.mjs');
+
 if (nic) {
-  test('orákulum je zatím prázdné', () => {
-    assert.fail('Doplňte oracle/expected/ a oracle/tvrzeni.json (cvičení 3)');
-  });
+  test('orákulum', { skip: jeKod ? false : 'kód zatím není — orákulum se doplní v cvičení 3' },
+    () => assert.fail('Kód existuje, ale oracle/expected/ i oracle/tvrzeni.json jsou prázdné (cvičení 3)'));
 }
 
 for (const soubor of presne) {
