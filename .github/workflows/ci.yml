@@ -4,6 +4,9 @@ on:
   pull_request:
   # Volá ho staging.yml po sloučení. Bez workflow_call GitHub to volání odmítne.
   workflow_call:
+  # Pull request s vydáním zakládá release-please tokenem Actions, a ten pull_request
+  # nespustí. release-please.yml proto brány na jeho větvi spouští výslovně.
+  workflow_dispatch:
 
 # KAŽDÁ BRÁNA JE VLASTNÍ JOB. V grafu běhu je pak vidět, KTERÁ spadla, aniž
 # by kdokoli otevíral log — a to je přesně dovednost, kterou se tu učíme.

@@ -10,4 +10,5 @@
 # Brány a pipeline mění garant. Změkčit bránu je rozhodnutí, ne úprava.
 /scripts/               @garant
 /.github/workflows/     @garant
-/deploy.sh              @garant
+/release-please-config.json     @garant
+/.release-please-manifest.json  @garant

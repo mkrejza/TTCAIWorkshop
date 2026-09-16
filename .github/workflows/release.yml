@@ -1,10 +1,18 @@
 name: Vydání
 
-# Spouští ho ZNAČKA, kterou vyrobí ./deploy.sh — tedy člověk, vědomě.
+# Volá ho release-please.yml, když člověk sloučí PULL REQUEST S VYDÁNÍM. Značku, kterou
+# release-please vytvoří, by tenhle workflow sám neviděl (token Actions nespouští další
+# workflow). Značka vyrobená ručně ho spustí přímo.
 # Staging se mění při každém sloučení; vydání je okamžik, ke kterému se dá vrátit.
 on:
   push:
     tags: ['app-v*']
+  workflow_call:
+    inputs:
+      tag:
+        description: Značka vydání, app-v<verze>
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -12,8 +20,12 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      TAG: ${{ inputs.tag || github.ref_name }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ inputs.tag || github.ref }}
       - uses: actions/setup-node@v5
         with:
           node-version: '22'
@@ -24,13 +36,13 @@ jobs:
         run: bash scripts/gate.sh
 
       - name: Zabalit artefakt
-        run: zip -r "prehravac-${GITHUB_REF_NAME}.zip" src oracle README.md
+        run: zip -r "prehravac-${TAG}.zip" src oracle README.md
 
-      - name: Vytvořit vydání
-        run: |
-          gh release create "$GITHUB_REF_NAME" \
-            "prehravac-${GITHUB_REF_NAME}.zip" \
-            --title "$GITHUB_REF_NAME" \
-            --generate-notes
+      # Vydání s changelogem už založil release-please; ručně vyrobená značka ho nemá.
+      - name: Přiložit artefakt k vydání
         env:
           GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "$TAG" >/dev/null 2>&1 \
+            || gh release create "$TAG" --title "$TAG" --generate-notes
+          gh release upload "$TAG" "prehravac-${TAG}.zip" --clobber

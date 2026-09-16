@@ -1,6 +1,6 @@
 # Cvičný projekt workshopu · Přehrávač záznamů
 
-**Verze 1.0**
+**Verze 1.1**
 
 Stránka v prohlížeči, která z načteného souboru měření ukáže **seznam úseků**
 a **graf hodnoty v čase**. Bez serveru, bez databáze, čistý JavaScript.
@@ -16,8 +16,9 @@ Připravené je to, co se za běhu nestíhá:
 | `scripts/` | Čtyři brány |
 | `.github/workflows/ci.yml` | Pipeline — brány při každém pull requestu |
 | `.github/workflows/staging.yml` | **Staging**: po sloučení do `main` se stav vystaví na Pages, sám |
-| `.github/workflows/release.yml` | **Vydání**: spouští ho značka od `deploy.sh`, brány běží znovu |
-| `deploy.sh` | Zábradlí vydání — verze, značka, čistota stromu, zelené brány |
+| `.github/workflows/release-please.yml` | **Pull request s vydáním**: příští verze a changelog z commitů, nikdo verzi nepíše |
+| `.github/workflows/release.yml` | **Vydání**: po sloučení pull requestu s vydáním, brány běží znovu |
+| `release-please-config.json` | Artefakt `app` a značka `app-v<verze>` |
 | `scripts/check-setup.sh` | Ověření stroje **den předem** |
 | `scripts/test.sh` | Obal nad `node --test`; nad prázdným `tests/` řekne proč, místo výpisu zásobníku |
 | `src/` | **Prázdné.** Sem to napíše sál |
@@ -44,16 +45,21 @@ těch z `example/`; **zkrácené proto, že tu není firmware ani mobilní aplik
 
 | | Staging | Vydání |
 |---|---|---|
-| Spustí | sloučení do `main` | **značka od `deploy.sh`** |
+| Spustí | sloučení do `main` | **sloučení pull requestu s vydáním** |
 | Vznikne | adresa s aktuálním stavem | **verze, ke které se lze vrátit** |
-| Pouští | nikdo, běží samo | člověk přes `/deploy` |
+| Pouští | nikdo, běží samo | člověk sloučením, `/deploy` ho provede |
 
 **Brány běží podruhé, nad označkovaným commitem.** Že prošly na hlavní větvi neznamená,
 že prošly nad tím, co se právě vydává.
 
-`/deploy` zároveň **řídí verzování**: ptá se na artefakt (tady je jediný), chce verzi
-**holou** bez `v`, ověří, že je vyšší než minulá a že značka ještě neexistuje, ukáže
-commity od minulé značky po typech a čeká na potvrzení.
+**Verzi nikdo nepíše.** Odvozuje se z Conventional Commits (`fix` → PATCH, `feat` →
+MINOR, `feat!` → MAJOR) a release-please ji spolu s changelogem drží v **pull requestu
+s vydáním**. `/deploy` ho najde, vysvětlí, který commit verzi zvedl, a nechá ho sloučit
+člověkem. **Nesedí-li verze, opravuje se commit, ne číslo.**
+
+**Předpoklad ve vaší kopii repozitáře:** *Settings → Actions → General → Workflow
+permissions → Allow GitHub Actions to create and approve pull requests.* Bez toho
+release-please pull request s vydáním nezaloží.
 
 Cvičný projekt má jediný artefakt, takže se otázka na artefakt zdá zbytečná. **Zeptá se
 stejně** — a je to dobrá příležitost říct proč: v ostrém repozitáři jsou verze po
